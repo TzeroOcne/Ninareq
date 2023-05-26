@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .drop-down-button>* {
+  .drop-down-button > * {
     @apply py-2;
   }
-  
+
   button {
     @apply focus:outline-none;
   }

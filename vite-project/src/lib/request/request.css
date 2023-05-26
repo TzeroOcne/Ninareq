@@ -6,16 +6,16 @@
   .tab-item {
     @apply inline-block p-4 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300;
   }
-  
+
   .tab-active {
     @apply inline-block p-4 rounded-t-lg bg-blue-900;
   }
-  
+
   .request-table td {
     @apply border-white border-solid border-[1px] p-2;
   }
-  
-  .request-table td input[type=checkbox] {
+
+  .request-table td input[type="checkbox"] {
     @apply first:relative first:left-full first:-translate-x-full;
   }
 }

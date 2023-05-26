@@ -1,13 +1,13 @@
 {
-    "editor.tabSize": 2,
-    "editor.semanticHighlighting.enabled": false,
-    "files.associations": {
-        "*.css": "tailwindcss"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    "editor.quickSuggestions": {
-        "strings": "on"
-    }
+  "editor.tabSize": 2,
+  "editor.semanticHighlighting.enabled": false,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }

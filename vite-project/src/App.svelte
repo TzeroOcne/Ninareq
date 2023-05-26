@@ -23,7 +23,7 @@
   <RequestContainer />
 
   <p>
-    Check out <a
+    Chek out <a
       href="https://github.com/sveltejs/kit#readme"
       target="_blank"
       rel="noreferrer">SvelteKit</a
