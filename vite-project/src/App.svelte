@@ -1,8 +1,17 @@
 <script lang="ts">
+  import { filesystem } from '@neutralinojs/lib';
   import RequestContainer from './lib/request/RequestContainer.svelte';
 
   import RequestURLContainer from './lib/request/RequestURLContainer.svelte';
   import { setContext } from 'svelte';
+  filesystem
+    .readDirectory('./')
+    .then((data) => {
+      console.error({ data });
+    })
+    .catch((err) => {
+      console.error({ err });
+    });
 
   setContext('selectedMethod', 'GET');
   setContext('selectedTab', 'Params');

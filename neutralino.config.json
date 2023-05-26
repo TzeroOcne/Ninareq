@@ -5,9 +5,11 @@
   "documentRoot": "/vite-project/dist/",
   "url": "/",
   "enableServer": true,
+  "exportAuthInfo": true,
   "enableNativeAPI": true,
   "nativeAllowList": [
-    "app.*"
+    "app.*",
+    "filesystem.readDirectory"
   ],
   "modes": {
     "window": {
@@ -24,7 +26,12 @@
     "binaryName": "Ninareq",
     "resourcesPath": "/vite-project/dist/",
     "extensionsPath": "/extensions/",
+    "clientLibrary": "/vite-project/__neutralino_globals.js",
     "binaryVersion": "4.10.0",
-    "clientVersion": "3.8.2"
+    "clientVersion": "3.8.2",
+    "frontendLibrary": {
+        "patchFile": "/vite-project/index.html",
+        "devUrl": "http://localhost:5173"
+    }
   }
 }
